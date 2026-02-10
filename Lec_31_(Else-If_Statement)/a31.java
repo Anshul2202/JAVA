@@ -16,8 +16,10 @@ public class a31 {
             System.out.println("C");
         } else if (stuMarks <= 70 && stuMarks > 60) {
             System.out.println("D");
-        } else if (stuMarks <= 60) {
+        } else if (stuMarks <= 60 && stuMarks >= 33) {
             System.out.println("P");
+        } else if (stuMarks < 33) {
+            System.out.println("F");
         } else {
             System.out.println("Invalid input");
         }
