@@ -2,7 +2,7 @@ public class i39 {
 
     public static void main(String arr[]) {
 
-        int result = getBucketCount(4, 2, 1, 2);
+        int result = getBucketCount(4, 4, 2, 4);
         System.out.println(result);
     }
 
