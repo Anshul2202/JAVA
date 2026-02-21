@@ -4,6 +4,9 @@ public class a40 {
 
         cellPhone Apple = new cellPhone();
         Apple.model = "12 Pro Max";
+        Apple.price = 80000;
+        Apple.ram = 8;
 
+        System.out.println(Apple.model);
     }
 }

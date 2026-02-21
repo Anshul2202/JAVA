@@ -2,6 +2,6 @@
 public class cellPhone {
 
     public String model;
-    private int price;
-    private int ram;
+    public int price;
+    public int ram;
 }
