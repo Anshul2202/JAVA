@@ -8,7 +8,7 @@ public class b39 {
     public static void sumFirstAndLast(int n) {
 
         if (n < 0) {
-            System.out.println("Invalid input!");
+            System.out.println("Invalid input!!");
             return;
         }
 
