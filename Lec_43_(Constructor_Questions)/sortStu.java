@@ -27,4 +27,13 @@ public class sortStu {
         this.standard = standard;
         this.section = section;
     }
+
+    // Getter Methods.........
+
+    public void getDetails() {
+        System.out.println(this.studentName);
+        System.out.println(this.studentRollNo);
+        System.out.println(this.standard);
+        System.out.println(this.section);
+    }
 }
