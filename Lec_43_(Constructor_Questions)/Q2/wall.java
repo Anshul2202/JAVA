@@ -1,3 +1,5 @@
+package Q2;
+
 public class wall {
 
     private double height;
