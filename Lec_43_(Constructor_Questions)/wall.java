@@ -7,22 +7,26 @@ public class wall {
 
     }
 
-    public wall(double heigth, double widht) {
+    public wall(double heigth, double width) {
         if (height < 0) {
             this.height = 0;
         }
 
+        this.height = heigth;
+
         if (width < 0) {
             this.width = 0;
         }
+
+        this.width = width;
     }
 
-    public void getWidth() {
-        System.out.println("Width : " + this.width);
+    public String getWidth() {
+        return ("Width : " + this.width);
     }
 
-    public void getHeight() {
-        System.out.println("Heigth : " + this.height);
+    public String getHeight() {
+        return ("Heigth : " + this.height);
     }
 
     public void setWidth(double width) {
@@ -37,10 +41,10 @@ public class wall {
         }
     }
 
-    public void getArea() {
+    public String getArea() {
         double area = this.height * this.width;
 
-        System.out.println("The area of the wall is : " + area);
+        return ("The area of the wall is : " + area);
 
     }
 }
