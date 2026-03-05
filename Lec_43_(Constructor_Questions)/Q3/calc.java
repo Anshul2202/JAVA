@@ -2,6 +2,8 @@ package Q3;
 
 public class calc {
 
-    floor f1 = new floor();
-    carpet c1 = new carpet();
+    public double getTotalCost(double totalArea, double cost) {
+        return (totalArea * cost);
+    }
+
 }

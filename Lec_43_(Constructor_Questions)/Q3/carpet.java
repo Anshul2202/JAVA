@@ -11,7 +11,7 @@ public class carpet {
         }
     }
 
-    public String getCost() {
-        return ("Cost = " + this.cost);
+    public double getCost() {
+        return (this.cost);
     }
 }

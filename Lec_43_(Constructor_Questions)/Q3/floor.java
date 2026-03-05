@@ -20,8 +20,8 @@ public class floor {
 
     }
 
-    public String getArea() {
+    public double getArea() {
         double area = this.width * this.length;
-        return ("Area = " + area);
+        return (area);
     }
 }
