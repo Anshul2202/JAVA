@@ -4,7 +4,7 @@ public class c43 {
 
     public static void main(String arr[]) {
 
-        floor f1 = new floor(5.87, 2.762);
+        floor f1 = new floor(5.99, 3.75);
         double totalArea = f1.getArea();
         carpet c1 = new carpet(3.5);
         double costPerArea = c1.getCost();
