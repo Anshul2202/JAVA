@@ -4,6 +4,7 @@ public class b41 {
 
         Name name1 = new Name();
         Name name2 = new Name();
+        Name name3 = new Name();
 
         name1.setFirstName("Anshul");
         name1.getFirstName();
@@ -18,5 +19,11 @@ public class b41 {
         name2.setLastName("Singh");
         name2.getLastName();
         name2.getFullName();
+
+        name3.setFirstName("Shreya");
+        name3.getFirstName();
+        name3.setLastName("Gupta");
+        name3.getLastName();
+        name3.getFullName();
     }
 }
