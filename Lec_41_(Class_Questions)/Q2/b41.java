@@ -1,3 +1,5 @@
+package Q2;
+
 public class b41 {
 
     public static void main(String arr[]) {

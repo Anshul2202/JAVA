@@ -1,3 +1,5 @@
+package Q2;
+
 public class Name {
 
     private String firstName;
