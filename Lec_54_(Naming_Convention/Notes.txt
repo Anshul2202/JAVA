@@ -1,0 +1,17 @@
+Naming Convention in java......
+
+Class ----> First Alphabet should be capital
+
+Interface ------> First Alphabet should be capital
+
+Methods -----> Firts Alphabet should be small
+
+Variables -----> First Alphabet should be small || Every variable should have a unique name || Only _ , $ , Numbers are allowed
+
+Packages -----> Everything must be in small
+
+Constants ------> Everything must be in capital
+
+And for All of the Above :-
+  Names should me meaningfull
+  Should not very long
