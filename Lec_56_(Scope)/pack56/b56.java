@@ -8,7 +8,8 @@ public class b56 {
         System.out.println("The var1 is : " + var1 + " The var2 is : " + var2);
     }
 
-    private void get2() {
-        System.out.println("Getting the values....");
-    }
+    // private void get2() {
+    // System.out.println("Getting the values....");
+    // }
+
 }
