@@ -10,7 +10,10 @@ public class a56 {
         // it's private
         // This is the scope of var1 & var2
 
-        obj1.get();
+        obj1.get1();
+        // obj1.get2();
+        // Can't access get2 method cause it's also private
+        // This is the scope of the method get1 & get2
 
     }
 }
