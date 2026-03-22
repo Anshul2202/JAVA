@@ -15,5 +15,13 @@ public class a56 {
         // Can't access get2 method cause it's also private
         // This is the scope of the method get1 & get2
 
+        // Another example
+
+        for (int i = 0; i <= 5; i++) {
+            System.out.println(i);
+        }
+
+        // System.out.println(i); -----> Can not access "i"
+        // Beacuse the scope "i" was only within the for loop
     }
 }
