@@ -11,5 +11,7 @@ public class a55 {
         Testpack2 t2 = new Testpack2();
         t2.testRun2();
 
+        Testpack2 t3 = new Testpack2();
+        t3.testRun2();
     }
 }
