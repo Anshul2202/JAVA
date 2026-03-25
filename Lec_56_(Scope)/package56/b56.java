@@ -1,4 +1,4 @@
-package pack56;
+package package56;
 
 public class b56 {
     public int var1 = 10;

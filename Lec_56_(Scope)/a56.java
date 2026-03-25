@@ -1,4 +1,4 @@
-import pack56.b56;
+import package56.b56;
 
 public class a56 {
 
