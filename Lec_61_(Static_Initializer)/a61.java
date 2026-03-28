@@ -5,5 +5,6 @@ public class a61 {
         staticInit obj = new staticInit();
         obj.method1();
         obj.method2();
+        obj.method3();
     }
 }

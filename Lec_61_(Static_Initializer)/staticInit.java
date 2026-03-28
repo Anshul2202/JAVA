@@ -26,4 +26,12 @@ public class staticInit {
     public void method2() {
         System.out.println("Method2 was called!");
     }
+
+    static {
+        System.out.println("Fourth static initialization is done!");
+    }
+
+    public void method3() {
+        System.out.println("Method3 was called!");
+    }
 }
