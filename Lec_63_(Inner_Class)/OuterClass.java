@@ -9,6 +9,9 @@ public class OuterClass {
     public class InnerClass {
 
         public void getOuterDetails() {
+
+            // Variable & Method of outer class
+            // Can be accessed in inner class
             System.out.println(num);
             func();
         }
