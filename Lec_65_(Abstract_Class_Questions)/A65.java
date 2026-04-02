@@ -10,9 +10,9 @@ public class A65 extends Marks {
         System.out.println("The percentage is : " + percentage);
     }
 
-    public A65(int a, int b, int c) {
-        num1 = a;
-        num2 = b;
-        num3 = c;
+    public A65(int num1, int num2, int num3) {
+        this.num1 = num1;
+        this.num2 = num2;
+        this.num3 = num3;
     }
 }

@@ -11,10 +11,10 @@ public class B65 extends Marks {
         System.out.println("The percentage is : " + percentage);
     }
 
-    public B65(int a, int b, int c, int d) {
-        num1 = a;
-        num2 = b;
-        num3 = c;
-        num4 = d;
+    public B65(int num1, int num2, int num3, int num4) {
+        this.num1 = num1;
+        this.num2 = num2;
+        this.num3 = num3;
+        this.num4 = num4;
     }
 }
