@@ -1,3 +1,5 @@
+package Q1;
+
 public class Students {
 
     public static void main(String arr[]) {

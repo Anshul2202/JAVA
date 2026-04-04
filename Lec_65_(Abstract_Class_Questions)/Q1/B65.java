@@ -1,3 +1,5 @@
+package Q1;
+
 public class B65 extends Marks {
 
     int num1;
