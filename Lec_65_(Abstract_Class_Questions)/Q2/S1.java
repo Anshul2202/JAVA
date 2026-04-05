@@ -10,6 +10,7 @@ public class S1 extends Student {
         this.percentage = percentage;
     }
 
+    // Implementing Abstract methods
     @Override
     public void studentName() {
         System.out.println("The student name is : " + name);
