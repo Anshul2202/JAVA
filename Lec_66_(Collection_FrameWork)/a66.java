@@ -7,7 +7,7 @@ public class a66 {
         // Collection Frameworks
 
         // List ------> ArrayList
-        List<Integer> list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
 
         list.add(6);
         list.add(3);
@@ -35,7 +35,7 @@ public class a66 {
 
         // List -----> LinkedList
 
-        List<Integer> list2 = new LinkedList();
+        List<Integer> list2 = new LinkedList<>();
 
         list2.add(3);
         list2.add(4);
