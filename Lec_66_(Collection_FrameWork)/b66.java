@@ -24,12 +24,12 @@ public class b66 {
         // Cloning a list
 
         ArrayList<Integer> mylist2 = new ArrayList<>();
-        mylist2 = (ArrayList) mylist.clone();
+        mylist2 = (ArrayList<Integer>) mylist.clone();
         System.out.println(mylist2);
 
         // Sublist
         ArrayList<Integer> parentList = new ArrayList<>();
-        parentList = (ArrayList) mylist.clone();
+        parentList = (ArrayList<Integer>) mylist.clone();
 
         ArrayList<Integer> subList = new ArrayList<>();
         subList.add(5);

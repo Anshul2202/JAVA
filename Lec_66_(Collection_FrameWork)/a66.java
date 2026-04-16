@@ -21,7 +21,7 @@ public class a66 {
         Collections.sort(list);
 
         // Creating Iterator For List
-        Iterator IT = list.listIterator();
+        Iterator<Integer> IT = list.listIterator();
 
         while (IT.hasNext()) {
             System.out.println(IT.next());
@@ -52,7 +52,7 @@ public class a66 {
         System.out.println(list2);
 
         // Creating Iterator
-        Iterator IT2 = list2.listIterator();
+        Iterator<Integer> IT2 = list2.listIterator();
 
         while (IT2.hasNext()) {
             System.out.println(IT2.next());
