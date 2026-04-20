@@ -1,3 +1,5 @@
+package Part1;
+
 public class Student implements Comparable<Student> {
 
     private String name;
