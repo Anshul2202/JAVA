@@ -26,13 +26,6 @@ public class Car implements Comparable<Car> {
 
     @Override
     public int compareTo(Car c) {
-
-        if (this.name.compareTo(c.name) == 0) {
-            return 0;
-        } else if (this.name.compareTo(c.name) > 0) {
-            return 1;
-        } else {
-            return -1;
-        }
+        return this.name.compareTo(c.name);
     }
 }
