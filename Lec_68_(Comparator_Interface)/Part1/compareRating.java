@@ -1,3 +1,4 @@
+package Part1;
 import java.util.*;
 
 public class compareRating implements Comparator<Movie> {
