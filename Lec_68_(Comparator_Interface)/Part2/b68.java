@@ -8,13 +8,13 @@ public class b68 {
 
         ArrayList<Student> list = new ArrayList<>();
 
-        list.add(new Student("Siddharth", 89));
-        list.add(new Student("Shreya", 97));
-        list.add(new Student("Rahul", 80));
-        list.add(new Student("Anshul", 87));
+        list.add(new Student("Siddharth", 47, 89));
+        list.add(new Student("Shreya", 57, 97));
+        list.add(new Student("Rahul", 10, 80));
+        list.add(new Student("Anshul", 19, 87));
 
         for (Student s : list) {
-            System.out.println(s.getName() + " " + s.getMarks());
+            System.out.println(s.getName() + " " + s.getRollNo() + " " + s.getMarks());
         }
         System.out.println("\n \n \n ");
 
@@ -24,7 +24,7 @@ public class b68 {
         Collections.sort(list, compName);
 
         for (Student s : list) {
-            System.out.println(s.getName() + " " + s.getMarks());
+            System.out.println(s.getName() + " " + s.getRollNo() + " " + s.getMarks());
         }
         System.out.println("\n \n \n ");
 
@@ -34,7 +34,14 @@ public class b68 {
         Collections.sort(list, compMarks);
 
         for (Student s : list) {
-            System.out.println(s.getName() + " " + s.getMarks());
+            System.out.println(s.getName() + " " + s.getRollNo() + " " + s.getMarks());
+        }
+        System.out.println("\n \n \n");
+
+        // Sorted on the basis of Roll No
+
+        for (Student s : list) {
+            System.out.println(s.getName() + " " + s.getRollNo() + " " + s.getMarks());
         }
     }
 }
