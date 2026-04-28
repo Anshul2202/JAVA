@@ -1,7 +1,6 @@
 package Part1;
-import java.util.*;
 
-public class Movie implements Comparator<Movie> {
+public class Movie {
 
     private String name;
     private int year;
@@ -25,8 +24,4 @@ public class Movie implements Comparator<Movie> {
         return rating;
     }
 
-    @Override
-    public int compare(Movie m1, Movie m2) {
-        return 0;
-    }
 }
