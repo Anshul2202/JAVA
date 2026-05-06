@@ -45,6 +45,30 @@ public class a69 {
             System.out.println(s);
         }
 
+        // ------------------------------------------------------------
+
+        // size Method
+        System.out.println(cart.size());
+
+        // -------------------------------------------------------------
+
+        // remove Method
+
+        for (String s : cart) {
+            System.out.println(s);
+        }
+        System.out.println("\n\n");
+
+        cart.remove(0);
+
+        for (String s : cart) {
+            System.out.println(s);
+        }
+
+        // -------------------------------------------------------------
+
+        // indexOf Method
+        System.out.println(cart.indexOf("Vegies"));
     }
 
 }
