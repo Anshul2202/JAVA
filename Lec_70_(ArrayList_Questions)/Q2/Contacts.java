@@ -15,4 +15,8 @@ public class Contacts {
     public String getNumber(){
         return phoneNo;
     }
+
+    public static Contacts createContact(String Name , String PhoneNo){
+        return (new Contacts(Name , PhoneNo));
+    }
 }
