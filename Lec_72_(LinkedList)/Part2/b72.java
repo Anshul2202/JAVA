@@ -20,6 +20,8 @@ public class b72 {
         }
     }
 
+    
+    // Sorting according to ascending order
     private static boolean ascAddList(LinkedList<String> list, String word) {
         ListIterator<String> IT = list.listIterator();
 
