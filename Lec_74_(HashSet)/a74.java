@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class a74 {
-    
+public class a74{
+
     public static void main(String arr[]){
 
         HashSet<String> set = new HashSet<>();
-        
+
         // add
         set.add("I");
         set.add("am");
@@ -15,16 +15,18 @@ public class a74 {
         System.out.println(set);
 
         // remove
+
         set.remove("Java");
 
         System.out.println(set);
 
-        // iterator
+        // Iterator
 
         Iterator<String> IT = set.iterator();
 
         while(IT.hasNext()){
             System.out.println(IT.next());
         }
+
     }
 }
