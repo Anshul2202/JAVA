@@ -1,7 +1,7 @@
 package Part2;
 import java.util.*;
 
-public class b72 {
+public class b74 {
     
     public static void main(String arr[]){
 
