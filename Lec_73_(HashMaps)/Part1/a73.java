@@ -14,16 +14,16 @@ public class a73 {
         student.put(4, "Ayush");
         student.put(5, "Aman");
 
-        // for(int key : student.keySet()){
-        // System.out.println(key + " - " + student.get(key));
-        // }
+        for(int key : student.keySet()){
+        System.out.println(key + " - " + student.get(key));
+        }
 
         // remove
         student.remove(4);
 
-        // for (int key : student.keySet()) {
-        // System.out.println(key + " - " + student.get(key));
-        // }
+        for (int key : student.keySet()) {
+        System.out.println(key + " - " + student.get(key));
+        }
 
         // replace
         student.replace(5, "Aman" , "Ayush");
