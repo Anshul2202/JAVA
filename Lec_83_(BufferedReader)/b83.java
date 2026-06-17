@@ -29,6 +29,8 @@ public class b83 {
             System.out.println(intArr[i]);
         }
 
+        br.close();
+
         
     }
 
