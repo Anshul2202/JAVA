@@ -4,7 +4,7 @@ public class a85 {
 
         System.out.println("Start");
 
-        MyThread t1 = new MyThread();
+        MyThread85 t1 = new MyThread85();
         t1.setName("Thread 1");
         
         t1.start();

@@ -2,7 +2,7 @@ public class b87 {
     
     public static void main(String arr[]){
 
-        MyThread t1 = new MyThread();
+        MyThread87 t1 = new MyThread87();
 
         t1.start();
 

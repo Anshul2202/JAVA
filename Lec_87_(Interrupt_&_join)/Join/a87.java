@@ -2,7 +2,7 @@ public class a87 {
     
     public static void main(String arr[]){
 
-        MyRunnable r1 = new MyRunnable();
+        MyRunnable87 r1 = new MyRunnable87();
 
         Thread t1 = new Thread(r1);
 
