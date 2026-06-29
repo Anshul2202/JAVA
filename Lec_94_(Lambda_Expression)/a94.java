@@ -9,9 +9,7 @@ public class a94 {
         car.run();
 
 
-        Adder94 a = (int x , int y) -> {
-            return (x + y);
-        };
+        Adder94 a = (int x , int y) -> (x + y);
 
         System.out.println(a.add(10 , 10));
     }
