@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class a102 {
-    
+
     public static void main(String arr[]){
 
         List<Integer> list1 = Arrays.asList(1 , 2 , 3);
@@ -15,5 +15,20 @@ public class a102 {
         listOfLists.stream()
                     .flatMap(x -> x.stream())
                     .forEach(System.out::println);
+
+        
+        // -----------------------------------------------------------------
+
+        List<String> strList = Arrays.asList(
+                "Java Python",
+                "Python SQL",
+                "Java HTML",
+                "HTML C++"
+        );
+
+        strList.stream()
+                .flatMap(x -> Arrays.stream(x.split(" ")))
+                .distinct()
+                .forEach(System.out::println);
     }
 }
